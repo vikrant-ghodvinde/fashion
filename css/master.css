@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background: #111;
+  position: fixed;
+  transition: 0.5s;
+  z-index: 1;
+}
+nav.sticky{
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+nav .logo h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+nav.sticky .logo h1{
+  color: #000;
+}
+nav .logo h1 span{
+  color: #ff002f;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li a{
+    font-size: 16px;
+    margin: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: all 0.1s;
+    padding: 25px 0;
+    transition: all 0.1s;
+}
+nav.sticky ul li a{
+  color: #000;
+}
+nav ul li a.active{
+  padding: 25px 0;
+  color: #ff005d;
+}
+
+/* header */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  background: url('../img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+header h1{
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ff002f;
+  letter-spacing: 4px;
+}
+header h1 span{
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 20px 100px;
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+footer p{
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px;
+  font-weight: 400;
+}
+footer .developer{
+  font-size: 12px;
+}
+footer .developer a{
+  text-decoration: none;
+  color: #ff002f;
+}
+
+
+/* animation */
+section{
+  animation: master 0.5s ease-in;
+}
+header{
+  animation: master 0.5s ease-in;
+}

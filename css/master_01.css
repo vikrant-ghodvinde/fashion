@@ -1,0 +1,26 @@
+.background1{
+  background: url('../img/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.background2{
+  background: url('../img/bg4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.background3{
+  background: url('../img/bg6.jpg');
+  background-size: cover;
+  background-position: left;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}

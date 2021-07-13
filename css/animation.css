@@ -1,0 +1,47 @@
+/* master animation */
+@keyframes master {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+/* home animation */
+nav ul li a:hover{
+  padding: 25px 0;
+  color: #ff005d;
+}
+nav ul li a.active:hover{
+  padding: 25px 0;
+}
+.about .content .left a:hover{
+  background: #000;
+  border: 2px solid #000;
+}
+
+/* about page */
+.about-us .content .right .social-media a i:hover{
+  background: #ff002f;
+  color: #fff;
+}
+.team .content .box .social-apps:hover{
+  opacity: 1;
+  background: rgba(255, 30, 0, 0.7);
+}
+.team .content .box .social-apps a i:hover{
+  color: #ff002f;
+}
+
+.details-data .details-box .content-details a:hover{
+  background: #000;
+}
+
+/* contact us page */
+.contact-us .content .left .form-box button:hover{
+  background: #000;
+}
+.form-box .text-box:focus{
+  outline: none;
+}
