@@ -182,6 +182,7 @@
   /* contact us page sections start */
   .contact-us .content{
     flex-direction: column-reverse;
+    align-items: center;
   }
   .contact-us .content .left .form-box{
     width: 320px;
