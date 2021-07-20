@@ -27,10 +27,10 @@ $(document).ready(function(){
 // responsive menu
 function toggleMenu(){
   icon = document.querySelector('.menu-icon');
-  menu = document.querySelector('.menu');
+  menuList = document.querySelector('.menu');
 
   icon.classList.toggle('active');
-  menu.classList.toggle('active');
+  menuList.classList.toggle('active');
 }
 
 // loader
