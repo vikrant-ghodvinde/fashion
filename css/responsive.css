@@ -1,5 +1,5 @@
-/* for 1200px width */
-@media (max-width: 1200px) {
+/* for 600px width */
+@media (max-width: 800px) {
   /* navbar start */
   nav{
     flex-direction: column;
@@ -145,6 +145,7 @@
   .team .content{
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .team .content .box{
     width: 300px;
@@ -176,6 +177,10 @@
   .our-products .product-list ul li{
     margin: 20px 4px;
     font-size: 10px;
+  }
+  .our-products .product-items{
+    justify-content: center;
+    align-items: center;
   }
   /* product page sections end */
 

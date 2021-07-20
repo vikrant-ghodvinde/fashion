@@ -32,3 +32,9 @@ function toggleMenu(){
   icon.classList.toggle('active');
   menu.classList.toggle('active');
 }
+
+// loader
+function loader(){
+  load = document.querySelector('.pre-loader');
+  load.style.visibility = 'hidden';
+}
